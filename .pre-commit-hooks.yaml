@@ -1,0 +1,5 @@
+- id: branch-validate
+  name: branch-validate
+  description: Enforce git branch naming conventions in repository
+  entry: githooks/branch_validate.sh
+  language: script
