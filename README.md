@@ -19,8 +19,8 @@ repos:
 Every developer should also install `pre-commit` locally:
 
 1. Install [pre-commit](http://pre-commit.com/).
-   - Homebrew: `brew install pre-commit`
-   - Poetry (for [server](https://github.com/clairBuoyant/server)): `poetry install`
+   - [Homebrew](https://brew.sh/): `brew install pre-commit`
+   - [Pipx](https://pypa.github.io/pipx/): `pipx install pre-commit`
 2. Run `pre-commit install` in repository.
 
 Now every time a commit is made, the hooks specified in `.pre-commit-config.yaml` will execute.

@@ -6,7 +6,7 @@ RED="\033[0;31m"
 
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 
-valid_branch_regex="^(bug|chore|devops|feat|fix|hotfix|release)\/[a-zA-Z0-9._-]+$"
+valid_branch_regex="^(bug|chore|enhancement|feature|hotfix|release|wip)\/[a-z0-9._-]+$"
 
 message="Commit failed. Branch names in this project must follow this pattern: $valid_branch_regex. Please rename your branch and try again."
 
